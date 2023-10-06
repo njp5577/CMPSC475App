@@ -18,7 +18,7 @@ data class User (
     var username: String,
     var password: String
 )
-//List containing users
+//User List containing users
 @Serializable
 var userList = arrayListOf(
     User(
